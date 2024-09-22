@@ -13,6 +13,7 @@ body{
     flex-grow: 1;
     min-width: 50%;
     max-width: 80%;
+    height: 100vh;
     background-color: blueviolet;
 }
 #right-pane{
@@ -25,6 +26,10 @@ body{
     display: flex;
     flex-grow: 1;
     width: 40%;
+    background-image: url('buddy-photo-Wcab0_0pgKo-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 #in-right{
     display: flex;
