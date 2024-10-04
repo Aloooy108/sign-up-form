@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-grow: 1;
     max-width: 40%;
-    background-color: blue;
+    background-color: rgba(69, 63, 63, 0.851);
     background-image: url('pexels-sheinshine-3127880.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,11 +22,12 @@ footer{
     margin-top: auto;
     margin-left: 5px;
     margin-bottom: 5px;
+    font-size: 8px;
 }
 #right-pane{
     display: flex;
     flex-grow: 1;
     max-width: 60%;
-    background-color: blue;
+    background-color: rgb(54, 54, 54);
 }
 
