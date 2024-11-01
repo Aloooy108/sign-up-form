@@ -4,6 +4,7 @@ body {
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+
 }
 /* to remove up and down arrows from number form */
 input::-webkit-outer-spin-button,
@@ -74,21 +75,27 @@ fieldset{
     display: flex;
     gap: 2em;
 }
-#left-container{
+#left-container, #right-container{
     display: flex;
     flex-direction: column;
     padding: 2%;
-    height: fit-content;
-}
-#right-container{
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
+    
 }
 label{
     padding: 2%;
+    color: rgb(187, 194, 200);
 }
 input{
     width: 20em;
     font-size: 1.1em;
+    background-color: rgb(53, 166, 155);
+    
+}
+button{
+    margin: 2%;
+    padding: 0.6em 4em;
+    background-color: rgb(53, 166, 155);
+    letter-spacing: 0.2em;
+    font-weight: 900;
+    font-size: 1em;
 }
