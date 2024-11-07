@@ -48,6 +48,7 @@ footer {
     flex-grow: 1;
     max-width: 60%;
     background-color: rgb(54, 54, 54);
+    flex-direction: column;
 }
 
 #banner {
@@ -115,4 +116,12 @@ button{
 button:active{
     border-color: rgb(42, 81, 97) ;
     background-color:  rgb(72, 122, 141) ;
+}
+.text{
+    margin: 2%;
+    font-size: 2em;
+}
+legend{
+    font-size: 2em;
+    margin-left: 1%;
 }
