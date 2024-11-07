@@ -71,7 +71,7 @@ footer {
 fieldset{
     border-style: none;
 }
-#container2{
+#sign-up-form{
     display: flex;
     gap: 2em;
 }
