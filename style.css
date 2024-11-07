@@ -1,9 +1,10 @@
 body {
     margin: 0;
     display: flex;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #282727; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
+    color: rgb(187, 194, 200);
 
 }
 /* to remove up and down arrows from number form */
@@ -28,7 +29,7 @@ input[type=number] {
     flex-direction: column;
     display: flex;
     flex-grow: 1;
-    max-width: 40%;
+    max-width: 45%;
     background-color: rgba(69, 63, 63, 0.851);
     background-image: url('pexels-sheinshine-3127880.jpg');
     background-size: cover;
@@ -46,7 +47,7 @@ footer {
 #right-pane {
     display: flex;
     flex-grow: 1;
-    max-width: 60%;
+    max-width: 55%;
     background-color: rgb(54, 54, 54);
     flex-direction: column;
 }
@@ -67,10 +68,12 @@ footer {
     font-weight: 400;
     font-style: normal;
     padding-left: 10px;
+    color: black;
 }
 
 fieldset{
     border-style: none;
+    padding: 0;
 }
 #sign-up-form{
     display: flex;
@@ -118,10 +121,21 @@ button:active{
     background-color:  rgb(72, 122, 141) ;
 }
 .text{
-    margin: 2%;
+    padding: 0 3% 3% 3%;
     font-size: 2em;
+    width: 65%;
+    margin-bottom: 0;
+}
+#text-container{
+    padding-top: 10%;
 }
 legend{
     font-size: 2em;
-    margin-left: 1%;
+    margin-left: 2%;
+}
+
+#form-container{
+    box-shadow: #242323;
+    background-color: #414040;
+    padding-top: 2%;
 }
